@@ -649,7 +649,7 @@ function initPortfolio() {
 
 	var map;
 	// your coordinates   --------
-	var cashemir = new google.maps.LatLng( 40.761467,-73.956379);	
+	var cashemir = new google.maps.LatLng( 13.1183531, 77.5815545);	
 	function initialize() {	
 	  var styles = [
 		{
@@ -738,13 +738,13 @@ function initPortfolio() {
 		styles, styledMapOptions);
 	map.mapTypes.set('bestfromgoogle', jayzMapType);
 	map.setMapTypeId('bestfromgoogle');				
-	var companyImage = new google.maps.MarkerImage('images/marker.png',
+	var companyImage = new google.maps.MarkerImage('images/marker-green.png',
 		new google.maps.Size(30,30),
 		new google.maps.Point(0,0),
 		new google.maps.Point(28,58)
 	);
 	// your marker coordinates   --------
-	var companyPos = new google.maps.LatLng(40.761467,-73.956379);
+	var companyPos = new google.maps.LatLng( 13.1183531, 77.5815545);
 	var companyMarker = new google.maps.Marker({
 		position: companyPos,
 		map: map,
